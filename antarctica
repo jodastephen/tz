@@ -229,7 +229,7 @@ Zone Antarctica/Syowa	0	-	zzz	1957 Jan 29
 #
 # year-round base
 # Scott Base, Ross Island, since 1957-01.
-# See Pacific/Auckland.
+# See Antarctica/McMurdo.
 #
 # These rules for New Zealand are stolen from the `australasia' file.
 # Rule	NAME	FROM	TO	TYPE	IN	ON	AT	SAVE	LETTER/S
@@ -339,10 +339,15 @@ Zone Antarctica/Palmer	0	-	zzz	1965
 #
 #
 # McMurdo Station, Ross Island, since 1955-12
-# See Pacific/Auckland.
-#
+# Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
+Zone Antarctica/McMurdo	0	-	zzz	1956
+			12:00	NZAQ	NZ%sT
+
 # Amundsen-Scott South Pole Station, continuously occupied since 1956-11-20
-# See Pacific/Auckland.
+#
+# From Paul Eggert (1996-09-03):
+# Normally it wouldn't have a separate entry, since it's like the
+# larger Antarctica/McMurdo since 1970, but it's too famous to omit.
 #
 # From Chris Carrier (1996-06-27):
 # Siple, the first commander of the South Pole station,
@@ -363,3 +368,5 @@ Zone Antarctica/Palmer	0	-	zzz	1965
 # makes all of the clocks run fast.  So every couple of days,
 # we have to go around and set them back 5 minutes or so.
 # Maybe if we let them run fast all of the time, we'd get to leave here sooner!!
+#
+Link	Antarctica/McMurdo	Antarctica/South_Pole

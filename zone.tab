@@ -1,4 +1,4 @@
-# TZ zone descriptions, with alternative zone names for backward compatibility
+# TZ zone descriptions
 #
 # This file is in the public domain, so clarified as of
 # 2009-05-17 by Arthur David Olson.
@@ -42,7 +42,8 @@ AI	+1812-06304	America/Anguilla
 AL	+4120+01950	Europe/Tirane
 AM	+4011+04430	Asia/Yerevan
 AO	-0848+01314	Africa/Luanda
-AQ	-7750+16636	Antarctica/McMurdo	McMurdo, South Pole, Scott (New Zealand time)
+AQ	-7750+16636	Antarctica/McMurdo	McMurdo Station, Ross Island
+AQ	-9000+00000	Antarctica/South_Pole	Amundsen-Scott Station, South Pole
 AQ	-6734-06808	Antarctica/Rothera	Rothera Station, Adelaide Island
 AQ	-6448-06406	Antarctica/Palmer	Palmer Station, Anvers Island
 AQ	-6736+06253	Antarctica/Mawson	Mawson Station, Holme Bay
@@ -122,7 +123,8 @@ CA	+4612-05957	America/Glace_Bay	Atlantic Time - Nova Scotia - places that did n
 CA	+4606-06447	America/Moncton	Atlantic Time - New Brunswick
 CA	+5320-06025	America/Goose_Bay	Atlantic Time - Labrador - most locations
 CA	+5125-05707	America/Blanc-Sablon	Atlantic Standard Time - Quebec - Lower North Shore
-CA	+4339-07923	America/Toronto	Eastern Time - Ontario & Quebec - most locations
+CA	+4531-07334	America/Montreal	Eastern Time - Quebec - most locations
+CA	+4339-07923	America/Toronto	Eastern Time - Ontario - most locations
 CA	+4901-08816	America/Nipigon	Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973
 CA	+4823-08915	America/Thunder_Bay	Eastern Time - Thunder Bay, Ontario
 CA	+6344-06828	America/Iqaluit	Eastern Time - east Nunavut - most locations
@@ -422,6 +424,7 @@ US	+465042-1012439	America/North_Dakota/New_Salem	Central Time - North Dakota - 
 US	+471551-1014640	America/North_Dakota/Beulah	Central Time - North Dakota - Mercer County
 US	+394421-1045903	America/Denver	Mountain Time
 US	+433649-1161209	America/Boise	Mountain Time - south Idaho & east Oregon
+US	+364708-1084111	America/Shiprock	Mountain Time - Navajo
 US	+332654-1120424	America/Phoenix	Mountain Standard Time - Arizona (except Navajo)
 US	+340308-1181434	America/Los_Angeles	Pacific Time
 US	+611305-1495401	America/Anchorage	Alaska Time
