@@ -366,7 +366,7 @@ The file 'backward' consists of Link entries mapping deprecated names
 to their replacements. Usage of a deprecated name is discouraged.
 As such, the file permits canonicalization, where the use of a
 deprecated name can be automatically replaced with the replacement.
-If the data set is used with the 'backward' file file excluded, then
+If the data set is used with the 'backward' file excluded, then
 it must remain logical and complete. For example, there must be no
 references to any deprecated name from any other file.
 
