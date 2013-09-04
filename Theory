@@ -316,6 +316,8 @@ in decreasing order of importance:
 		'America/New_York' precludes 'America/New_York/Bronx'.
 	Uninhabited regions like the North Pole and Bouvet Island
 		do not need locations, since local time is not defined there.
+	Use ISO-3166 as a guide to ensuring time zone name coverage.
+		There should typically be at least one name per ISO-3166 code.
 	If all the clocks in a region have agreed since 1970,
 		don't bother to include more than one location
 		even if subregions' clocks disagreed before 1970.
