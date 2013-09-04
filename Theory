@@ -362,12 +362,19 @@ constraints.  Although a 'zone.tab' location's longitude corresponds
 to its LMT offset with one hour for every 15 degrees east longitude,
 this relationship is not exact and is not true for 'time.tab'.
 
+The file 'backward' consists of Link entries mapping deprecated names
+to their replacements. Usage of a deprecated name is discouraged.
+As such, the file permits canonicalization, where the use of a
+deprecated name can be automatically replaced with the replacement.
+If the data set is used with the 'backward' file file excluded, then
+it must remain logical and complete. For example, there must be no
+references to any deprecated name from any other file.
+
 Older versions of this package used a different naming scheme,
-and these older names are still supported.
-See the file 'backward' for most of these older names
+and these older names are still supported using 'backward'.
 (e.g. 'US/Eastern' instead of 'America/New_York').
-The other old-fashioned names still supported are
-'WET', 'CET', 'MET', and 'EET' (see the file 'europe').
+Some other old-fashioned names are not deprecated, such as
+'WET', 'CET', 'MET', and 'EET', see the 'europe' file.
 
 
 ----- Time zone abbreviations -----
